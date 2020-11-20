@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function PostsContent() {
+
     const classes = useStyles();
     // State
     const [open, setOpen] = React.useState(false);
